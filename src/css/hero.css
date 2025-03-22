@@ -1,0 +1,25 @@
+.hero-box {
+    position: relative;
+    margin-top: -160px;
+    z-index: 2;
+    padding: 30px;
+    border: var(--primary-color) solid 1px;
+    border-radius: var(--card-border-radius);
+}
+
+.hero-box-form {
+    border: solid var(--primary-color) 1px;
+    padding: 5px;
+    border-radius: var(--btn-border-radius);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.hero-box-form input {
+    border: none;
+    color: var(--gray-color);
+    font-size: var(--md-font-size);
+    width: 100%;
+}

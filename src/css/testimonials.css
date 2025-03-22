@@ -1,0 +1,25 @@
+.testimonial-card{
+    padding: 25px;
+    border-radius: 16px;
+}
+.testimonial-card:hover{
+    transform: scale(1.03);
+}
+.testimonial-card-title{
+    color: var(--dark-color);
+    margin-top: 10px;
+    font-size: var(--md-font-size);
+}
+.testimonial-card-title span{
+    color: var(--blue-color);
+}
+
+.testimonial-card-sub-title{
+    color: var(--gray-color);
+    margin-top: 20px;
+    font-size: var(--md-font-size);
+}
+.testimonial-card-description{
+    color: var(--dark-color);
+    font-size: var(--md-font-size);
+}

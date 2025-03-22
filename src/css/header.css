@@ -1,0 +1,75 @@
+header {
+  background-color: var(--secondary-color);
+}
+.header-main {
+  padding: 10px 0;
+}
+
+.header-main-components {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-navbar-components {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* contact-numbers */
+.contact-numbers {
+  display: flex;
+  gap: 15px;
+}
+.contact-numbers .number {
+  color: var(--light-color);
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.contact-numbers .number:hover {
+  color: var(--blue-color);
+}
+
+/* social-list */
+.social-list {
+  display: flex;
+  gap: 10px;
+}
+
+.social-list i {
+  color: var(--light-color);
+  font-size: 19px;
+  display: block;
+}
+.social-list i:hover {
+  color: var(--blue-color);
+}
+/* toolbar */
+.toolbar {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.language-switch,
+.search-box {
+  border: solid 1px white;
+  border-radius: 100px;
+  color: var(--light-color);
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  /* padding: 7px; */
+}
+.search-box {
+  width: 30px;
+}
+.language-switch {
+  min-width: 80px;
+  gap: 10px;
+}
+.language-switch .language-switch-arrow {
+  font-size: 10px;
+}

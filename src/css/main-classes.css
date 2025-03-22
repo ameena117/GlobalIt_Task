@@ -1,0 +1,38 @@
+.list-plain {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-end {
+    justify-content: end;
+}
+
+.justify-content-start {
+    justify-content: start;
+}
+
+.align-items-center {
+    align-items: center;
+}
+.py-40{
+    padding: 40px 0;
+}
+.mt-40{
+    margin-top: 40px;
+}
+.mb-40{
+    margin-bottom: 40px;
+}
+

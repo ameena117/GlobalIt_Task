@@ -1,0 +1,26 @@
+.story-card{
+    border-radius: var(--box-border-radius);
+    padding: 20px;
+    background-color: var(--light-color);
+}
+.story-card:not(:last-child){
+    margin-bottom: 20px;
+}
+.story-title{
+    font-size: var(--lg-font-size);
+    font-weight: 500;
+    color: var(--dark-color);
+    display: flex;
+    justify-content: space-between;
+}
+.story-title.open i{
+    transform: rotate(180deg);
+}
+.story-description{
+    padding-top: 8px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 10px 0 15px;
+    line-height: 1.4;
+    font-size: var(--md-font-size);
+    color: var(--dark-color);
+}

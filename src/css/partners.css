@@ -1,0 +1,8 @@
+.partners-swiper .main-slide{
+    background-color: var(--light-color);
+    padding: 10px;
+    width: fit-content;
+    object-fit: cover;
+    border-radius: 20px;
+}
+

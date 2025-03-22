@@ -1,0 +1,20 @@
+/* header-navbar */
+.header-navbar {
+    background-color: var(--light-color);
+    padding: 20px 0;
+}
+
+/* main-menu */
+.main-menu {
+    display: flex;
+    gap: 30px;
+}
+
+.main-menu .main-menu-item {
+    color: var(--mid-color);
+    font-size: 16px;
+}
+
+.experiance-years{
+    width: 200px;
+}

@@ -1,0 +1,38 @@
+.section-networks {
+  background-image: url(../images/Line\ pattern.png),
+    url(../images/Line\ pattern\ r.png);
+  background-repeat: no-repeat;
+  background-position: 22% 50%, 77% 90%;
+}
+.network-card {
+  position: relative;
+  aspect-ratio: 1/0.5;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: var(--box-border-radius)
+}
+
+.network-card-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/* .network-card-background img {
+  aspect-ratio: 1/0.6;
+  object-fit: cover; 
+} */
+
+.network-card-title {
+  color: var(--light-color);
+  font-size: var(--xxl-font-size);
+  z-index: 1;
+  text-align: center;
+  padding: 10px 20px;
+}
+.network-card:hover{
+  transform: scale(1.03);
+}

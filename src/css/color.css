@@ -1,0 +1,12 @@
+.bg-light{
+    background-color: var(--light-color);
+}
+.bg-muted{
+    background-color: var(--muted-color);
+}
+.bg-secondary{
+    background-color: var(--mid-color);
+}
+.bg-blue{
+    background-color: var(--light-blue-color);
+}
